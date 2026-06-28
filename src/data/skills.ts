@@ -1,0 +1,67 @@
+export const dummySkills: SkillRecord[] = [
+	{
+		id: "skill_research_synthesizer",
+		title: "Research Synthesizer",
+		slug: "research-synthesizer",
+		description:
+			"Collects source material, extracts key claims, and produces concise research briefs with citation-ready notes.",
+		category: "Research",
+		tags: ["research", "summarization", "citations"],
+		installCommand: "codex skill install research-synthesizer",
+		createdAt: "2026-06-01T14:30:00.000Z",
+		authorClerkId: "user_2zResearchSynth",
+		authorEmail: "maya@example.com",
+	},
+	{
+		id: "skill_pr_reviewer",
+		title: "Pull Request Reviewer",
+		slug: "pull-request-reviewer",
+		description:
+			"Reviews code changes for regressions, missing tests, security risks, and maintainability concerns.",
+		category: "Engineering",
+		tags: ["code-review", "testing", "security"],
+		installCommand: "codex skill install pull-request-reviewer",
+		createdAt: "2026-06-05T09:15:00.000Z",
+		authorClerkId: "user_2zPrReview",
+		authorEmail: "devtools@example.com",
+	},
+	{
+		id: "skill_release_notes",
+		title: "Release Notes Writer",
+		slug: "release-notes-writer",
+		description:
+			"Turns merged changes and issue history into clear release notes for technical and non-technical readers.",
+		category: "Documentation",
+		tags: ["documentation", "changelog", "release"],
+		installCommand: "codex skill install release-notes-writer",
+		createdAt: "2026-06-10T18:45:00.000Z",
+		authorClerkId: "user_2zReleaseDocs",
+		authorEmail: "docs@example.com",
+	},
+	{
+		id: "skill_incident_triage",
+		title: "Incident Triage",
+		slug: "incident-triage",
+		description:
+			"Organizes alerts, logs, and recent deploy context into an actionable incident timeline and response checklist.",
+		category: "Operations",
+		tags: ["incident", "observability", "ops"],
+		installCommand: "codex skill install incident-triage",
+		createdAt: "2026-06-14T22:05:00.000Z",
+		authorClerkId: "user_2zIncidentOps",
+		authorEmail: "sre@example.com",
+	},
+	{
+		id: "skill_customer_signal",
+		title: "Customer Signal Mapper",
+		slug: "customer-signal-mapper",
+		description:
+			"Clusters customer feedback, support tickets, and interview notes into product themes and opportunity areas.",
+		category: "Product",
+		tags: ["feedback", "product", "support"],
+		installCommand: "codex skill install customer-signal-mapper",
+		createdAt: "2026-06-20T16:20:00.000Z",
+		authorClerkId: null,
+		authorEmail: "product@example.com",
+	},
+];
